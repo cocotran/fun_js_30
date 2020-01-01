@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    color: white;
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+.key {
+    text-align: center;
+    margin-left: 4rem;
+    padding: 0.25rem 1.5rem;
+    border: 4px black solid;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .07s;
+    text-shadow: 0 0 5px black;
+}
+
+.sound {
+    font-size: 1rem;
+    color: #f6e05e;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #f6e05e;
+    box-shadow: 0 0 10px #f6e05e;
+}
+
+/*# sourceMappingURL=/drumkit.3c1b94b7.css.map */

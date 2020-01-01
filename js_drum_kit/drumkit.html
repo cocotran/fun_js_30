@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="drumkit.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script src="drumkit.js"></script>
+    <title>Javascript Drum Kit</title>
+</head>
+<body>
+
+    <h1 class="ml-1 mt-1">Press keys to play music</h1>
+
+    <div class="flex w-full mt-24 justify-center">
+        <div data-key="87" class="key ml-0">
+            <div>W</div>
+            <span class="sound">Guitar</span>
+        </div>
+        <div data-key="69" class="key">
+            <div>E</div>
+            <span class="sound">Drum</span>
+        </div>
+        <div data-key="73" class="key">
+            <div>I</div>
+            <span class="sound">Piano</span>
+        </div>
+        <div data-key="79" class="key">
+            <div>O</div>
+            <span class="sound">clap</span>
+        </div>
+    </div>
+
+    <div class="flex w-full mt-24 justify-center">
+        <div data-key="65" class="key ml-0">
+            <div>A</div>
+            <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+            <div>S</div>
+            <span class="sound">hihat</span>
+        </div>
+        <div data-key="68" class="key">
+            <div>D</div>
+            <span class="sound">boom</span>
+        </div>
+        <div data-key="70" class="key">
+            <div>F</div>
+            <span class="sound">tink</span>
+        </div>
+        <div data-key="71" class="key">
+            <div>G</div>
+            <span class="sound">ride</span>
+        </div>
+        <div data-key="72" class="key">
+            <div>H</div>
+            <span class="sound">openhat</span>
+        </div>
+        <div data-key="74" class="key">
+            <div>J</div>
+            <span class="sound">snare</span>
+        </div>
+        <div data-key="75" class="key">
+            <div>K</div>
+            <span class="sound">toms</span>
+        </div>
+        <div data-key="76" class="key">
+            <div>L</div>
+            <span class="sound">bass</span>
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <div data-key="32" class="mt-24 ml-0 h-20 w-2/4 key">
+        <div>Space</div>
+        <span class="sound">kick</span>
+    </div>
+
+    <audio data-key="87" src="sounds/guitar_solo.wav"></audio>
+    <audio data-key="69" src="sounds/drum_solo.wav"></audio>
+    <audio data-key="73" src="sounds/piano_solo.wav"></audio>
+    <audio data-key="79" src="sounds/trumpet_solo.wav"></audio>
+
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/boom.wav"></audio>
+    <audio data-key="70" src="sounds/bottle_tink.wav"></audio>
+    <audio data-key="71" src="sounds/ride.wav"></audio>
+    <audio data-key="72" src="sounds/openhat.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/toms.wav"></audio>
+    <audio data-key="76" src="sounds/bass.wav"></audio>
+    <audio data-key="32" src="sounds/kick_drum.wav"></audio>
+    
+</body>
+</html>
